@@ -1,0 +1,37 @@
+﻿in short, yes, hold it
+
+1. Download and install http://www.denwer.ru/ (At the end there will be a question about icons on the desktop, you agree).
+2. Then download and install https://www.java.com/ru/download/.
+3. Then download and install https://www.oracle.com/java/technologies/downloads/#jdk20-windows/.
+4. After the successful installation of applications, go to the desktop and open the application "Start Denwer", wait until the window disappears.
+5. Then open any browser and insert "localhost/tools/phpmyadmin".
+6. Looking for the "Databases" tab, go there.
+7. There will be a database creation form, enter "tanks" in the introductory line, select "utf8_general_ci" in comparison and click the "Create" button.
+8. When you have created a database, go to it, there will be a list of databases on the left.
+9. Click the "Import" button, it's on top.
+10. There you click on the "Select file" button and select the tanks.sql file, which is located in the folder with the Kozak drain, that is, where
+the "client, server" folders are located.
+11. When you have chosen, go down a little, and click "OK".
+12. If the database was successfully imported, click on the house, it is under the inscription phpMyAdmin.
+13. Go to the "Users" tab.
+14. Click on "Add User".
+15. In the "User name" enter "root" without the quotes.
+16. In the password, select "No password".
+17. Click down, there will be an opportunity to tick, on three columns, "Data", "Structure", "Administration".
+18. Check all the boxes.
+19. Click the "OK" button.
+20. Then go to the "server" folder.
+21. Run "start.bat".
+22. Wait for the server to load.
+23. After you see in the console:
+[INFO]: [Netty] Server run on port: 12345
+[INFO]: RMI Payment service is runned!
+[INFO]: RMI ServerTools service is runned!
+[INFO]: RMIServer started
+go to the client folder.
+24. There you run "start.cmd".
+25. If it doesn't work, install the flash and specify the trusted folder.
+26. Log in to the MRBean 11111 account and play.
+
+For all questions, write in Mursakovsk http://discord.gg/ShYVKZxkEb
+ bye!!!!!!!!!!!!!!!!!!!!!!!
